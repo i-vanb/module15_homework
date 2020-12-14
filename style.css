@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #F7DC4F;
+    outline-style: none;
+    cursor: pointer;
+    transition: transform .2s;
+    display: flex;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
+.btn_text{
+    margin-right: 10px;
+}
+
+.btn_icon {
+    width: 15px;
+    height: 15px;
+    font-size: 15px;
+}
+
+.off {
+    display: none;
+}
+
+.btn_wrap {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    background-color: silver;
+    border-bottom-color: darkblue;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    margin: 0 auto;
+}
+
+.chat_wrapper {
+    margin: 0 auto;
+    /*padding-top: 10px;*/
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 600px;
+    display: block;
+    justify-content: center;
+    background-color: silver;
+}
+.chat_wrapper::-webkit-scrollbar {
+    width: 10px;
+}
+
+.chat_wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.chat_wrapper::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+.message_wrapper {
+    background-color: #F7DC4F;
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.txt_msg {
+    resize: none;
+    border-radius: 5px;
+    border-color: blueviolet;
+    width: 500px;
+    margin: 10px auto;
+}
+
+.txt_msg:hover {
+    border-width: 2px;
+}
+
+.txt_msg::-webkit-scrollbar {
+    width: 5px;
+}
+
+.txt_msg::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.txt_msg::-webkit-scrollbar-thumb {
+    background-color: #c4a7de;
+    outline: 1px solid slategrey;
+}
+
+.btn_send {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.btn_send:hover {
+    transform: scale(1.1);
+}
+
+.svg_send {
+    color: blueviolet;
+}
+
+.my_msg {
+    background-color: #c4a7de;
+    margin: 5px 5px 5px auto;
+}
+
+.guest_msg {
+    background-color: #fafafa;
+    margin: auto 5px 5px 5px;
+}
+
+.msg p {
+    margin: 0;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.msg {
+    width: 250px;
+    min-height: 50px;
+    border-radius: 10px;
+}
+
+.connected {
+    background-color: #c4a7de;!important;
+    /*color: #e25151;*/
+}
+
